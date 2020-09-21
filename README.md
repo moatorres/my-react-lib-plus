@@ -1,6 +1,6 @@
 <sub>[my-react-lib-plus](https://github.com/moatorres/my-react-lib-plus)</sub>
 
-## 🗃 React Component Lib Boilerplate w/ Storybook
+## 🗃 React Component Library Boilerplate w/ Storybook
 
 Boilerplate app for building your own React library with Storybook UI Component Explorer
 
