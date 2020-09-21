@@ -2,6 +2,8 @@
   "name": "my-react-lib-plus",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/index.js",
+  "source": "src/components/index.js",
   "author": {
     "name": "Moa Torres",
     "url": "https://github.com/moatorres"
@@ -15,14 +17,13 @@
     "type": "git",
     "url": "https://github.com/moatorres/my-react-lib-plus.git"
   },
-  "dependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "clean": "rimraf dist",
-    "compile": "yarn clean && cross-env NODE_ENV=production babel src/ --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__"
+    "compile": "yarn clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore stories.js"
   },
   "eslintConfig": {
     "extends": "react-app"

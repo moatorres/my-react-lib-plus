@@ -6,23 +6,27 @@ Boilerplate app for building your own React library with Storybook UI Component 
 
 ### Scripts
 
-Run `npm run i-all` to install dependencies and then `npm run dev` to start the application 🎮
+Run `yarn` to install the dependencies
+
+Run `yarn start` to start the application or `yarn storybook` to start the UI explorer
+
+Once you're ready to publish run `yarn compile` and `yarn publish` to share your library.
+
+If you'd like to use the library locally, run `yarn link` then `cd into-your-project-folder` and run `yarn link 'my-react-lib-plus'. This will create a symlink named `your-project-folder/node_modules/my-react-lib-plus`that links to your local copy of the`my-react-lib-plus` project.
 
 ### Usage
 
 Create a new folder inside 📂 `src/components` with an `index.js` file and start building your React component.
 
-Make sure to export it from `src/index.js` 🔌
+Make sure to export it from `src/components/index.js` 🔌
 
-@ src/index.js
+@ src/components/index.js
 
 ```jsx
-export { default as MyComponent } from './components/YOUR-COMPONENT/index.js'
+export { default as MyComponent } from './components/YOUR-COMPONENT'
 ```
 
-Import your component inside the Playground App and open `http://localhost:3000` to view it live.
-
-@ src/playground/src/App.js
+@ src/App.js
 
 ```jsx
 import { MyComponent } from 'my-react-lib-plus'
