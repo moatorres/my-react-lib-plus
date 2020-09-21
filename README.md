@@ -8,7 +8,10 @@ Boilerplate app for building your own React library with Storybook UI Component 
 
 Run `yarn` to install the dependencies
 
-Run `yarn start` to start the applications at `localhost:3000` and `localhost:6006` (React and Storybook, respectively)
+Run `yarn start` to start the applications
+
+- React App `localhost:3000`
+- Storybook UI Explorer `localhost:6006`
 
 Once you're ready to publish run `yarn compile` and `yarn publish` to share your library.
 
