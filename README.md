@@ -1,4 +1,4 @@
-<sub>[⚡️ my-react-lib-plus LIVE](https://my-react-lib-plus.hoxlux.com)</sub>
+<sub>[⚡️ my-react-lib-plus LIVE](https://my-react-lib-plus.netlify.app)</sub>
 
 ## 🗃 React Component Library Boilerplate w/ Storybook
 
