@@ -22,9 +22,9 @@ This will create a symlink named _your-project-folder/node_modules/my-react-lib-
 
 ### Usage
 
-Create a new folder inside 📂 `src/components` with an `index.js` file and start building your React component.
+Create a new folder inside 📂 `src/components` for your component and start building.
 
-Make sure to export it from `src/components/index.js` 🔌
+Make sure to import/export it from `src/components/index.js` once you're ready 🔌
 
 @ src/components/index.js
 
