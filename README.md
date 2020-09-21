@@ -4,7 +4,7 @@
 
 Boilerplate app for building your own React library with Storybook UI Component Explorer
 
-### Scripts
+### ⚡️ Scripts
 
 Run `yarn` to install the dependencies
 
@@ -23,11 +23,11 @@ If you'd like to use the library locally:
 
 This will create a symlink named _your-project-folder/node_modules/my-react-lib-plus_ that links to your local copy of the `my-react-lib-plus` project. 🎉
 
-### Usage
+### ⚙️ Usage
 
-Create a new 📂 folder inside `src/components` for your component and start building.
+Create a new folder inside `src/components` for your component and start building.
 
-Make sure to 🔌 import/export it from `src/components/index.js` once you're ready
+Make sure to import/export your components from the `src/components/index.js` file.
 
 **@ src/components/index.js**
 
