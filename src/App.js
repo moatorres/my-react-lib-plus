@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react'
 
-function App() {
+import './App.css'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Fragment>
+      <section>
+        <div className="container">
+          <p>#my-react-lib-plus</p>
+          <h1>
+            <span role="img" aria-label="archive">
+              🗃{' '}
+            </span>
+            React Component Library
+          </h1>
+          <h3>Bootstrapped with Create React App</h3>
+          <sub>
+            <sup>
+              Made with{' '}
+              <span role="img" aria-label="heart">
+                ❤️{' '}
+              </span>
+              by <a href="https://github.com/moatorres">Moa</a> at{' '}
+              <a href="https://hoxlux.com">Hoxlux®</a>
+            </sup>
+          </sub>
+        </div>
+      </section>
+    </Fragment>
+  )
 }
 
-export default App;
+export default App
