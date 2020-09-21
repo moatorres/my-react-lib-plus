@@ -12,7 +12,13 @@ Run `yarn start` to start the application or `yarn storybook` to start the UI ex
 
 Once you're ready to publish run `yarn compile` and `yarn publish` to share your library.
 
-If you'd like to use the library locally, run `yarn link` then `cd into-your-project-folder` and run `yarn link 'my-react-lib-plus'. This will create a symlink named `your-project-folder/node_modules/my-react-lib-plus`that links to your local copy of the`my-react-lib-plus` project.
+If you'd like to use the library locally:
+
+[1] Run `yarn link`
+[2] Go to your project's folder `cd into-your-project-folder`
+[3] Run `yarn link 'my-react-lib-plus'
+
+This will create a symlink named _your-project-folder/node_modules/my-react-lib-plus_ that links to your local copy of the `my-react-lib-plus` project. 🎉
 
 ### Usage
 
