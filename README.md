@@ -19,7 +19,7 @@ If you'd like to use the library locally:
 
 - Run `yarn link`
 - Go to your project's folder `cd into-your-project-folder`
-- Run `yarn link 'my-react-lib-plus'
+- Run `yarn link 'my-react-lib-plus'`
 
 This will create a symlink named **_your-project-folder/node_modules/my-react-lib-plus_** that links to your local copy of the `my-react-lib-plus` project. 🎉
 
